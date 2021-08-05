@@ -1,4 +1,5 @@
 import os
+import time
 
 def isBinod(filename):
     with open(filename, "r") as f:
@@ -24,7 +25,7 @@ if __name__ == "__main__":
 
 print("******Binod Detector Summary******") 
 print(f"{nBinod} files found with Binod hidden into them")
-
+time.sleep(5)
 
 
 
